@@ -2,7 +2,7 @@
  Android Project : Real Estate Management
 Screenshot_2020-10-17-23-19-51-98.jpg
 
-<img src="ss/1.jpg" width="100" height="100"/>
+<img src="ss/1.jpg" width="500" height="1000"/>
 
 
 
