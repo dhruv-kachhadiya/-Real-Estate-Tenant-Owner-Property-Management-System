@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="nav_header_vertical_spacing">8dp</dimen>
+    <dimen name="nav_header_height">176dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+
+
+    <!-- OnBoard. -->
+
+    <dimen name="pager_dot_size">8dp</dimen>
+    <dimen name="pager_height">16dp</dimen>
+    <dimen name="ob_header_top_margin">50dp</dimen>
+
+    <dimen name="ob_desc_padding">30dp</dimen>
+    <dimen name="ob_banner_height">300dp</dimen>
+    <dimen name="items_inbetween">8dp</dimen>
+
+    <dimen name="button_text">18sp</dimen>
+    <dimen name="ob_header_text_size">22sp</dimen>
+    <dimen name="ob_desc_text_size">18sp</dimen>
+
+
+
+    <!--added for login design from https://appsnipp.com/minimal-login-registration-design-with-xml-code/-->
+    <dimen name="headerTextSizeLoginDesign">22sp</dimen>
+    <dimen name="newsMoreTextSizeLoginDesign">16sp</dimen>
+    <dimen name="signup_text_margin_topLoginDesign">5dp</dimen>
+
+
+
+
+
+
+
+    <!--added for Home page design card view from https://appsnipp.com/free-clean-ui-home-designs-with-dark-mode/-->
+    <dimen name="normalPadding">20dp</dimen>
+    <dimen name="headerTextSize">20sp</dimen>
+    <dimen name="headerMoreTextSize">18sp</dimen>
+    <dimen name="card_margin">5dp</dimen>
+    <dimen name="frutorial_title">15sp</dimen>
+
+
+
+    <!--added for predictor design-->
+    <!--dimes for design 3-->
+    <dimen name="headerTextSizeForgotPassword">22sp</dimen>
+    <dimen name="newsMoreTextSizeForgotPassword">12sp</dimen>
+    <dimen name="loginCardRadiusForgotPassword">20dp</dimen>
+    <dimen name="loginViewsMarginForgotPassword">20dp</dimen>
+    <dimen name="signup_text_margin_top">10dp</dimen>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- Added for login page design from company approval project -->
+    <dimen name="newsMoreTextSize">12sp</dimen>
+    <dimen name="loginViewsMargin">10dp</dimen>
+    <dimen name="registerViewsMargin">3dp</dimen>
+    <dimen name="passwordRegisterViewsMargin">7dp</dimen>
+    <dimen name="cnfpasswordRegisterViewsMargin">0dp</dimen>
+
+
+
+
+    <dimen name="headerTextSizeRegister">20sp</dimen>
+
+</resources>

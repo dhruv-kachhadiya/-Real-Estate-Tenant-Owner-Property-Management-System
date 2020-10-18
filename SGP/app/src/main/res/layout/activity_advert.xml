@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activities.AdvertActivity"
+    android:id="@+id/rel_layoutAdvert">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:id="@+id/linearLayout"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Advertisements"
+        android:layout_centerHorizontal="true"
+        android:textSize="25sp"
+        android:layout_gravity="center"
+        android:padding="15dp"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:id="@+id/label"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+
+            android:layout_height="250dp"
+            android:src="@drawable/add_ffor_rent_0"
+            android:layout_marginBottom="30dp"
+            />
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Add Advert"
+        android:textColor="#ffffff"
+        android:layout_gravity="center"
+        android:background="@drawable/button_general2"
+        android:id="@+id/btnAddAdvert"
+        android:layout_below="@+id/label"
+        android:textSize="16sp"/>
+
+
+
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/listViewProperties2"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_below="@id/linearLayout"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:padding="10dp"></ListView>
+
+
+
+    </LinearLayout>
+
+</ScrollView>

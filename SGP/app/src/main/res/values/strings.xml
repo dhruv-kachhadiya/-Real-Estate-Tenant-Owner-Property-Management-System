@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Real Estate</string>
+
+    <array name="properties">
+        <item>Detached</item>
+        <item>Semi-Detached</item>
+        <item>Terraced</item>
+        <item>Bungalow</item>
+        <item>Flat</item>
+    </array>
+
+    <array name="bedrooms">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5+</item>
+    </array>
+
+    <array name="management">
+        <item>Private</item>
+        <item>Property Management Professionals</item>
+    </array>
+
+    <string name="report_propertyLocation">Location of Your Property:   </string>
+    <string name="report_propertyType">Your Property is a </string>
+    <string name="report_propertyStatus">The Property is Currently </string>
+</resources>

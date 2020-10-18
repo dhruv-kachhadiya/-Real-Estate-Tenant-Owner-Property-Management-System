@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:src="@drawable/add_for_rent" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/card_back"
+        android:orientation="vertical"
+        android:padding="15dp">
+
+        <EditText
+            android:id="@+id/editTextPropertyLocation"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:hint="Enter Property Location"
+            android:layout_marginBottom="25dp"
+            android:gravity="center"
+            android:background="@drawable/et_add_properties"/>
+
+        <EditText
+            android:id="@+id/editTextPropertyAddress"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:hint="Enter Property Address"
+            android:layout_marginBottom="25dp"
+            android:gravity="center"
+            android:background="@drawable/et_add_properties"/>
+
+        <EditText
+            android:id="@+id/editTextPropertyPostcode"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:hint="Enter Property Postcode"
+            android:gravity="center"
+            android:background="@drawable/et_add_properties"/>
+
+    </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Property Type:"
+            android:textSize="20sp"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:layout_marginBottom="15dp"
+            android:layout_gravity="center"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/card_back2"
+        android:orientation="vertical"
+        android:padding="15dp">
+
+        <Spinner
+            android:id="@+id/spinnerProperty"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginBottom="25dp"
+            android:entries="@array/properties"
+            android:textAlignment="center"
+            android:background="@drawable/et_add_properties"/>
+
+        <EditText
+            android:id="@+id/editTextBedrooms"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:hint="Number of Bedrooms"
+            android:inputType="number"
+            android:layout_marginBottom="25dp"
+            android:gravity="center"
+            android:background="@drawable/et_add_properties"/>
+
+
+        <EditText
+            android:id="@+id/editTextRent"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:hint="Enter Amount Monthly Rental"
+            android:inputType="number"
+            android:layout_marginBottom="25dp"
+            android:gravity="center"
+            android:background="@drawable/et_add_properties"/>
+
+        <EditText
+            android:id="@+id/editTextPropertyTenancyLength"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:hint="Enter Tenancy Length"
+            android:layout_marginBottom="25dp"
+            android:inputType="number"
+            android:gravity="center"
+            android:background="@drawable/et_add_properties"/>
+
+        <EditText
+            android:id="@+id/editTextPropertyTenantName"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:hint="Enter Tenant Name"
+            android:layout_marginBottom="25dp"
+            android:gravity="center"
+            android:background="@drawable/et_add_properties"/>
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:id="@+id/radioGroup1"
+            android:background="@drawable/et_add_properties"
+            android:padding="20dp">
+
+
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Property Management Professionals"
+                android:id="@+id/radioButtonOption1"
+                android:layout_marginBottom="20dp"/>
+
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Private"
+                android:id="@+id/radioButtonOption2"/>
+
+
+        </RadioGroup>
+
+        <EditText
+            android:id="@+id/editTextManagementName"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:hint="Enter Management Name"
+            android:layout_marginBottom="25dp"
+            android:gravity="center"
+            android:background="@drawable/et_add_properties"/>
+
+        <EditText
+            android:id="@+id/editTextRefurb"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:hint="Amount Used To Refurb"
+            android:gravity="center"
+            android:background="@drawable/et_add_properties"
+            android:inputType="number"/>
+    </LinearLayout>
+
+
+        <Button
+            android:id="@+id/buttonAddProperty"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="25dp"
+            android:text="Add Property"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:background="@drawable/button_general"
+            android:textColor="#ffffff"/>
+
+        <Button
+            android:id="@+id/buttonCancel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Cancel"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/button_general2"
+            android:textColor="#ffffff"/>
+
+
+    </LinearLayout>
+
+
+
+</ScrollView>

@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Activities.UploadActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:src="@drawable/add_for_rent" />
+
+        <Button
+            android:id="@+id/button_choose_image"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/button_general"
+            android:padding="10dp"
+            android:text="Choose file"
+            android:textColor="#ffffff"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/image_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp" />
+
+        <ProgressBar
+            android:id="@+id/progress_bar"
+            style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/card_back"
+            android:orientation="vertical"
+            android:padding="15dp">
+
+
+            <EditText
+                android:id="@+id/edit_text_location"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginBottom="25dp"
+                android:background="@drawable/et_add_properties"
+                android:hint="Enter location"
+                android:paddingLeft="5dp" />
+
+            <EditText
+                android:id="@+id/edit_text_address"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginBottom="25dp"
+                android:background="@drawable/et_add_properties"
+                android:hint="Enter Address"
+                android:paddingLeft="5dp" />
+
+            <EditText
+                android:id="@+id/edit_text_postcode"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+
+                android:background="@drawable/et_add_properties"
+                android:hint="Enter Postcode"
+                android:paddingLeft="5dp" />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:text="Property Type:"
+            android:textColor="#000"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/card_back2"
+            android:orientation="vertical"
+            android:padding="15dp">
+
+            <Spinner
+                android:id="@+id/spinner_propertyTypeAd"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginBottom="25dp"
+                android:background="@drawable/et_add_properties"
+                android:entries="@array/properties"
+                android:textAlignment="center" />
+
+            <EditText
+                android:id="@+id/edit_text_bedroom"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+
+                android:layout_marginBottom="25dp"
+                android:background="@drawable/et_add_properties"
+                android:hint="How Many Bedroom?"
+                android:paddingLeft="5dp" />
+
+            <EditText
+                android:id="@+id/edit_text_rent"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+
+                android:layout_marginBottom="25dp"
+                android:background="@drawable/et_add_properties"
+                android:hint="How Much Rent pcm?"
+                android:paddingLeft="5dp" />
+
+            <EditText
+                android:id="@+id/edit_text_file_name"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+
+                android:layout_marginBottom="25dp"
+                android:background="@drawable/et_add_properties"
+                android:hint="Enter Your Name"
+                android:paddingLeft="5dp" />
+
+            <EditText
+                android:id="@+id/edit_text_phone"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+
+                android:layout_marginBottom="25dp"
+                android:background="@drawable/et_add_properties"
+                android:hint="Enter Phone Number"
+                android:inputType="phone"
+                android:paddingLeft="5dp" />
+
+            <EditText
+                android:id="@+id/edit_text_email"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="@drawable/et_add_properties"
+                android:hint="Enter Email Address"
+                android:inputType="textEmailAddress"
+                android:paddingLeft="5dp" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/button_upload"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="12dp"
+            android:background="@drawable/button_general"
+            android:padding="10dp"
+            android:text="Upload"
+            android:textColor="#ffffff"
+            android:textSize="16sp" />
+
+
+    </LinearLayout>
+
+
+</ScrollView>

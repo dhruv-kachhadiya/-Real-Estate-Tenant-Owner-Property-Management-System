@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "525891333835",
+    "firebase_url": "https://sgpfirebaseproject-86eaa.firebaseio.com",
+    "project_id": "sgpfirebaseproject-86eaa",
+    "storage_bucket": "sgpfirebaseproject-86eaa.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:525891333835:android:78f844a98fbfb44626f54e",
+        "android_client_info": {
+          "package_name": "crazy.developer.landlord_sgp_project"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "525891333835-2pip3005dbu515k1b3vpspnmgj0arknv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "crazy.developer.landlord_sgp_project",
+            "certificate_hash": "9a808085d82a4a9943e3abbbbf11fb99d8784284"
+          }
+        },
+        {
+          "client_id": "525891333835-d97b7641e7tjv1mlllk6nv0dqg60cqj8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCIlLr_YYKsw4SK32y9Fsgl_9pXoMzWUBA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "525891333835-d97b7641e7tjv1mlllk6nv0dqg60cqj8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

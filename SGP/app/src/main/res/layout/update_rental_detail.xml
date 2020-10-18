@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context=".Activities.UploadActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/card_back"
+            android:orientation="vertical"
+            android:padding="15dp">
+
+
+            <EditText
+                android:id="@+id/edit_text_location"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+
+                android:layout_marginBottom="25dp"
+                android:background="@drawable/et_add_properties"
+                android:hint="Enter location"
+                android:paddingLeft="5dp" />
+
+            <EditText
+                android:id="@+id/edit_text_address"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+
+                android:layout_marginBottom="25dp"
+                android:background="@drawable/et_add_properties"
+                android:hint="Enter Address"
+                android:paddingLeft="5dp" />
+
+            <EditText
+                android:id="@+id/edit_text_postcode"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+
+                android:background="@drawable/et_add_properties"
+                android:hint="Enter Postcode"
+                android:paddingLeft="5dp" />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:text="Property Type:"
+            android:textColor="#000"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/card_back2"
+            android:orientation="vertical"
+            android:padding="15dp">
+
+            <Spinner
+                android:id="@+id/spinner_propertyTypeAd"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginBottom="25dp"
+                android:background="@drawable/et_add_properties"
+                android:entries="@array/properties"
+                android:textAlignment="center" />
+
+            <EditText
+                android:id="@+id/edit_text_bedroom"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+
+                android:layout_marginBottom="25dp"
+                android:background="@drawable/et_add_properties"
+                android:hint="How Many Bedroom?"
+                android:paddingLeft="5dp" />
+
+            <EditText
+                android:id="@+id/edit_text_rent"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+
+                android:layout_marginBottom="25dp"
+                android:background="@drawable/et_add_properties"
+                android:hint="How Much Rent pcm?"
+                android:paddingLeft="5dp" />
+
+            <EditText
+                android:id="@+id/edit_text_file_name"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+
+                android:layout_marginBottom="25dp"
+                android:background="@drawable/et_add_properties"
+                android:hint="Enter Your Name"
+                android:paddingLeft="5dp" />
+
+            <EditText
+                android:id="@+id/edit_text_phone"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+
+                android:layout_marginBottom="25dp"
+                android:background="@drawable/et_add_properties"
+                android:hint="Enter Phone Number"
+                android:inputType="phone"
+                android:paddingLeft="5dp" />
+
+            <EditText
+                android:id="@+id/edit_text_email"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+
+                android:background="@drawable/et_add_properties"
+                android:hint="Enter Email Address"
+                android:inputType="textEmailAddress"
+                android:paddingLeft="5dp" />
+        </LinearLayout>
+
+
+        <Button
+            android:id="@+id/button_update"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="12dp"
+            android:background="@drawable/button_general"
+            android:text="Update"
+            android:textColor="#ffffff"
+            android:textSize="16sp"
+
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/button_delete"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="12dp"
+            android:background="@drawable/button_general"
+            android:text="Delete"
+            android:textColor="#ffffff"
+            android:textSize="16sp"
+
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/button_cancel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="12dp"
+            android:background="@drawable/button_general2"
+            android:text="Cancel"
+            android:textColor="#ffffff"
+            android:textSize="16sp"
+
+            android:textStyle="bold" />
+
+
+    </LinearLayout>
+
+
+</ScrollView>

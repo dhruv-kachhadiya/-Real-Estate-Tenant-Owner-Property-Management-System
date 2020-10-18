@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="colorBackground">#F8F8F8</color>
+    <color name="colorText">#ECB84E</color>
+    <color name="colorBlueLink">#0E76BB</color>
+
+    <color name="colorPrimary">#848cb7</color>
+    <color name="colorPrimaryDark">#6d749f</color>
+    <color name="colorAccent">#ff4081</color>
+    <color name="colorRed">#ff3943</color>
+    <color name="colorRedDark">#801b20</color>
+    <color name="colorGreenLight">#abffc0</color>
+    <color name="colorGreen">#247b37</color>
+    <color name="colorGreen1">#3eb959</color>
+    <color name="colorWhite">#ffffff</color>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!--added for Home page design card view from https://appsnipp.com/free-clean-ui-home-designs-with-dark-mode/-->
+
+    <color name="bottomNavigationTextColor">#B2B2B2</color>
+    <color name="bottomNavigationTintColor">#B2B2B2</color>
+    <color name="bottomNavigationSelectedColor">#FC4926</color>
+    <color name="statusBarColor">#000</color>
+    <color name="whiteBodyColor">#FCFCFC</color>
+    <color name="darkTextColor">#020000</color>
+    <color name="primaryTextColor">#019AE8</color>
+    <color name="whiteTextColor">#fff</color>
+    <color name="frutorial_title">#4c4c4c</color>
+
+    <!--colors for light mode-->
+    <color name="contentBodyColor">#FCFCFC</color>
+    <color name="contentTextColor">#020000</color>
+    <color name="miniTitleColor">#6F6A6A</color>
+    <color name="bottomNavigationBackground">#F7F7F7</color>
+    <color name="contentStatusBar">#f8cbb3</color>
+
+    <!--gradient colors-->
+    <color name="gradientOrange">#FF416C</color>
+    <color name="gradientViolet">#8A52E9</color>
+    <color name="gradientLightYellow">#FFA72F</color>
+    <color name="gradientLightOrange">#FF641A</color>
+    <color name="gradientLightYellow2">#FFC92B</color>
+    <color name="gradientLightOrange2">#FF7765</color>
+    <color name="gradientOrange3">#F7A23C</color>
+    <color name="gradientLightBlue">#376DF6</color>
+    <color name="gradientLightGreen">#21E8AC</color>
+    <color name="gradientPurple1">#da22ff</color>
+    <color name="gradientPurple2">#9733ee</color>
+    <color name="gradientRed1">#e52d27</color>
+    <color name="gradientRed2">#b31217</color>
+    <color name="gradientLightBlue1">#1fa2ff</color>
+    <color name="gradientLightBlue2">#12d8fa</color>
+    <color name="gradientBlack1">#004e92</color>
+    <color name="gradientBlack2">#000428</color>
+    <color name="gradientBlue1">#00c6ff</color>
+    <color name="gradientBlue2">#0072ff</color>
+    <color name="gradientBrown1">#aa076b</color>
+    <color name="gradientBrown2">#61045f</color>
+    <color name="gradientLBlue1">#89f7fe</color>
+    <color name="gradientLBlue2">#66a6ff</color>
+    <color name="gradientLRed1">#eb3349</color>
+    <color name="gradientLRed2">#f45c43</color>
+
+
+    <!--colors for nongradientversion-->
+    <color name="cardColorTeal">#09CD95</color>
+    <color name="cardColorOrange">#FF651B</color>
+    <color name="cardColorYellow">#FF991F</color>
+    <color name="cardColorViolet">#8F51E3</color>
+    <color name="cardColorRed">#F94172</color>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!--added for Login Design from Company Approval-->
+    <color name="colorPrimaryForUiDesign">#FFFFFF</color>
+    <color name="colorPrimaryDarkForUiDesign">#000</color>
+    <color name="colorAccentForUiDesign">#11CFC5</color>
+    <color name="themeColor">#11CFC5</color>
+
+
+
+
+
+
+
+
+
+    <!--added for Forgot Password design-->
+    <color name="colorPrimaryForgotPassword">#1F5BF3</color>
+    <color name="colorPrimaryDarkForgotPassword">#0947E8</color>
+    <color name="colorAccentForgotPassword">#00A5FF</color>
+
+    <!--colors for modern ui-->
+    <color name="whiteTextColorForgotPassword">#fff</color>
+    <color name="primaryTextColorForgotPassword">#00a5ff</color>
+    <color name="loginBkColorForgotPassword">#f0f0f0</color>
+
+    <!--colros for card-->
+    <color name="whiteCardColorForgotPassword">#fff</color>
+
+</resources>
